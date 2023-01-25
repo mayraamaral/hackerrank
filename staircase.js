@@ -1,10 +1,7 @@
 function staircase(n) {
-    for(let i = 1; i <=n; i++) {
-      let line = " ";
-      let hashtag = "#";
-      console.log(`${line.repeat(n-i)}${hashtag.repeat(i)}`);
+    for(let i = 1; i <= n; i++) {
+      console.log(`${" ".repeat(n-i)}${"#".repeat(i)}`);
     }
-    
 }
 
 staircase(6)
